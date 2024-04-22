@@ -13,10 +13,10 @@ Adott két csv állomány, amely két webshop vásárlóit, és azok kifizetése
 ## A payments.csv mezői:
 - Webshop azonosító **(*int*)**
 - Ügyfél azonosító (Webshop-on belül egyedi!) **(*int*)**
-- Fizetés módja ( 'card' | 'transfer' ) Kártyás fizetés, vagy banki átutalás (*boolean*)
+- Fizetés módja ( 'card' | 'transfer' ) Kártyás fizetés, vagy banki átutalás **(*string*)**
 - Összeg (HUF) (*int*)
-- Bankszámlaszám, amennyiben banki átutalás történt if(payment->utalás) **(*int*)**
-- Kártyaszám, amennyiben kártyás fizetés történt if(payment->kártya) **(*int*)**
+- Bankszámlaszám, amennyiben banki átutalás történt **(*int*)**
+- Kártyaszám, amennyiben kártyás fizetés történt **(*int*)**
 - Fizetés dátuma **(*DateTime*)**
 
 # Feladat
