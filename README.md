@@ -15,8 +15,8 @@ Adott két csv állomány, amely két webshop vásárlóit, és azok kifizetése
 - Ügyfél azonosító (Webshop-on belül egyedi!) **(*int*)**
 - Fizetés módja ( 'card' | 'transfer' ) Kártyás fizetés, vagy banki átutalás **(*string*)**
 - Összeg (HUF) (*int*)
-- Bankszámlaszám, amennyiben banki átutalás történt **(*int*)**
-- Kártyaszám, amennyiben kártyás fizetés történt **(*int*)**
+- Bankszámlaszám, amennyiben banki átutalás történt **(*string*)**
+- Kártyaszám, amennyiben kártyás fizetés történt **(*string*)**
 - Fizetés dátuma **(*DateTime*)**
 
 # Feladat
