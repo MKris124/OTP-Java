@@ -82,7 +82,7 @@ public class ShopApp {
     public void initializeCustomerSpendings() {
         customerSpendings = payments.stream()
                 .collect(Collectors.groupingBy(
-                        Payment::getCustomerId,  // Módosítva lambda kifejezésről metódusra hivatkozásra
+                        Payment::getCustomerId,  
                         Collectors.summingInt(Payment::getAmount)
                 ));
     }
